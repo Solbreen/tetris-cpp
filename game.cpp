@@ -243,7 +243,7 @@ bool Game::rightLegalMove(){
 
 void Game::moveTetromino(){
     switch((*this).key) {
-        case 81:
+        case 120:
             if (leftLegalMove()) {
                 for (int i = 0; i < 20; ++i){
                     for (int j = 0; j < 10; ++j) {
@@ -263,7 +263,7 @@ void Game::moveTetromino(){
                 }
             }
         break;*/
-        case 83:
+        case 99:
             if (rightLegalMove()) {
                 for (int i = 0; i < 20; ++i){
                     for (int j = 9; j >= 0; --j) {
@@ -274,7 +274,7 @@ void Game::moveTetromino(){
                 }
             }
             break;
-        case 84:
+        case 118:
             if (downLegalMove()) {
                 for (int i = 19; i >= 0; --i){
                     for (int j = 9; j >= 0; --j) {
