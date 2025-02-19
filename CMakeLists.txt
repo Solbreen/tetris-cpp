@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.28.3)
-project( DisplayImage )
+project( tetris )
 
-include(/opt/vcpkg/scripts/buildsystems/vcpkg.cmake)
+#include(/opt/vcpkg/scripts/buildsystems/vcpkg.cmake)
 
 find_package( OpenCV REQUIRED )
 include_directories( ${OpenCV_INCLUDE_DIRS} )
